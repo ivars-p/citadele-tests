@@ -38,7 +38,7 @@ public class DeckOfCardsApiSteps {
 
     @Given("User validates that deck of cards API is available")
     public void userValidatesThatDeckOfCardsAPIIsAvailable() {
-        LOGGER.info("Validating if the endpoint is available.");
+        LOGGER.info("Validating that the endpoint is available.");
         TestCaseContext.getDeckOfCardsEndpoint()
                 .sendRequest(GET_REQUEST, TestCaseContext.getCONFIG().getDefaultDeckOfCardsApiUrl())
                 .then()
