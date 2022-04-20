@@ -2,7 +2,7 @@ package com.citadele.tests.helpers;
 
 import com.citadele.tests.config.Config;
 import com.citadele.tests.endPoints.DeckOfCardsEndpoint;
-import com.citadele.tests.model.Deck;
+import com.citadele.tests.models.Deck;
 
 public class TestCaseContext {
 

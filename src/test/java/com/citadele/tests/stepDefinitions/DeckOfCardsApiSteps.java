@@ -2,7 +2,7 @@ package com.citadele.tests.stepDefinitions;
 
 import com.citadele.tests.helpers.TestCaseContext;
 
-import com.citadele.tests.model.Deck;
+import com.citadele.tests.models.Deck;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
