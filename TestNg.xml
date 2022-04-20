@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Citadele Latvia" data-provider-thread-count="4">
+    <test name="Main test execution" parallel="classes">
+        <classes>
+            <class name="com.citadele.tests.testRunner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
